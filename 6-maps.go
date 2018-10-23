@@ -32,8 +32,9 @@ func main() {
 	fmt.Println(tempMap2)
 
 	// Iterating over array
-	for key, val := range tempMap2 {
-		fmt.Println("Print key: ", key)
+	// Since in Go every variable has to be used if there is a case
+	// where we don't need the value of the variable we can use `_`
+	for _, val := range tempMap2 {
 		for innerKey, innerVal := range val {
 			fmt.Println("Inner key: ", innerKey, "inner val: ", innerVal)
 		}
