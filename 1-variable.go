@@ -22,7 +22,7 @@ func main() {
 	var str3 = "Another hello"
 	fmt.Println(str3)
 
-	// Multiple declaration (NOTE: both `a` and `b` are declared as int type
+	// Multiple declaration (NOTE: both `a` and `b` are declared as int type)
 	var a, b int
 	b = 5
 	a = 10
