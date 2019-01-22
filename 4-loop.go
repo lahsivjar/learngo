@@ -11,6 +11,6 @@ func main() {
 	// While alternative (since Go has only for loop)
 	for {
 		fmt.Println("Hello there")
-		break;
+		break
 	}
 }
